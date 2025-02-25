@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Attach to ExtendScript Engine",
+			"type": "extendscript-debug",
+			"request": "attach",
+			"hostAppSpecifier": "aftereffects-25.0"
+		},
+		{
+			"name": "Launch Script in ExtendScript Engine",
+			"type": "extendscript-debug",
+			"request": "launch",
+			"hostAppSpecifier": "aftereffects-25.0",
+			"script": "${workspaceFolder}/index.jsx",
+		},
+	],
+}
