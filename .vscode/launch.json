@@ -11,8 +11,9 @@
 			"name": "Launch Script in ExtendScript Engine",
 			"type": "extendscript-debug",
 			"request": "launch",
+			"preLaunchTask": "Rollup Bundle",
 			"hostAppSpecifier": "aftereffects-25.0",
-			"script": "${workspaceFolder}/index.js",
+			"script": "${workspaceFolder}/dist/index.js",
 		},
 	],
 }
