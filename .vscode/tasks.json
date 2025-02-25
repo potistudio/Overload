@@ -2,9 +2,14 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Rollup Bundle",
+			"label": "Rollup Dev Bundle",
 			"type": "shell",
-			"command": "npx rollup -c",
+			"command": "npx rollup -c --environment BUILD:development",
+		},
+		{
+			"label": "Rollup Release Bundle",
+			"type": "shell",
+			"command": "npx rollup -c --environment BUILD:release",
 		},
 	],
 }
