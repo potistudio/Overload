@@ -12,7 +12,7 @@
 			"type": "extendscript-debug",
 			"request": "launch",
 			"hostAppSpecifier": "aftereffects-25.0",
-			"script": "${workspaceFolder}/index.jsx",
+			"script": "${workspaceFolder}/index.js",
 		},
 	],
 }
